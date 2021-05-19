@@ -1,14 +1,22 @@
 body{
     background: url(../../../images/principal.jpeg) no-repeat center center fixed;
     background-size: cover;
+    font-family:'DM Sans', sans-serif
 }
 
 .navbar{
-   opacity: 1; 
+   
+   background-color: #70c6db;
 }
 
-.navbar-nav{
-    font-size: 1.5rem;
+.navbar-nav a{
+    font-size: 1vw;
+}
+
+@media (max-width: 1177px) {
+    .navbar-nav a {
+        font-size: 1rem;
+    }
 }
 
 #cat_prop{
@@ -57,6 +65,9 @@ h5{
 
 footer{
     background-color: #70c6db;
+    margin-top: 5rem;
+    border-color:#123b4600 ;
+    font-family:'DM Sans', sans-serif
 
 }
 
@@ -69,8 +80,25 @@ footer{
     border: 0px;
     top: 0px;
     height: 0.6rem;
-    background: linear-gradient(to right, #2392ae, #afccd3);
+    background: linear-gradient(to right, #123b46, #51bcd6);
+    border-color:#123b4600 ;
 
+}
+.container-anexo{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #676767ad;
+
+}
+
+.text-break-all{
+    word-break: break-all;
+}
+
+.btn-outline-info{
+    color: white;
+    border-color: white;
+    border-width: 0.2rem;
 }
 
 #exampleFormControlSelect1{

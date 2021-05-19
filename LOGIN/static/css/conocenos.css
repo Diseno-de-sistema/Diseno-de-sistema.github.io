@@ -1,15 +1,24 @@
 body{
     background: url(../../../images/principal.jpeg) no-repeat center center fixed;
     background-size: cover;
+    font-family:'DM Sans', sans-serif
 }
 
 .navbar{
-   opacity: 1; 
+   
+   background-color: #70c6db;
 }
 
-.navbar-nav{
-    font-size: 1.5rem;
+.navbar-nav a{
+    font-size: 1vw;
 }
+
+@media (max-width: 1177px) {
+    .navbar-nav a {
+        font-size: 1rem;
+    }
+}
+
 
 #cat_prop{
     color: rgb(255, 255, 255);
@@ -63,11 +72,11 @@ h5{
     width: 256px;
     height: 202.67px;
 }
-
 footer{
     background-color: #70c6db;
     margin-top: 5rem;
     border-color:#123b4600 ;
+    font-family:'DM Sans', sans-serif
 
 }
 
@@ -83,9 +92,23 @@ footer{
     background: linear-gradient(to right, #123b46, #51bcd6);
     border-color:#123b4600 ;
 
+}
+.container-anexo{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #676767ad;
 
 }
 
+.text-break-all{
+    word-break: break-all;
+}
+
+.btn-outline-info{
+    color: white;
+    border-color: white;
+    border-width: 0.2rem;
+}
 
 .slide-promotions{
     border: 0px;
@@ -141,4 +164,20 @@ box-shadow: 3px 3px 10px rgba(213, 213, 213, 0.542);
 
 .fuente{
     font-size: 1.2rem;
+}
+
+
+
+.enlace-team h1{
+    
+    color:#f0f0f0;
+}
+
+.enlace-team h1 a{
+    text-decoration:none;
+    color:#f0f0f0;
+}
+
+.enlace-team h1 a:hover{
+    color:#70c6db;
 }
